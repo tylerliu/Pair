@@ -40,7 +40,7 @@ UINavigationControllerDelegate {
     
 }
 
-func recommandMusic(originalImage:UIImage){
+func recommendMusic(originalImage:UIImage){
     let ratio = sqrt(originalImage.size.height * originalImage.size.width / 800 / 600);
     var image = originalImage
     if (ratio > 1.1) {
@@ -90,7 +90,7 @@ extension ViewController{
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let img = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
             myImage.image = img
-            recommandMusic(originalImage: img)
+            recommendMusic(originalImage: img)
             let label1 : UILabel = self.view.viewWithTag(300) as! UILabel;
             label1.text = "Image Loaded";
             let button1 : UIButton = self.view.viewWithTag(100) as! UIButton;
