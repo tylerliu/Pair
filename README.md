@@ -1,7 +1,7 @@
 # Pair 看图识曲
 ##### "Personal Acoustic-Inspiration Relator" 
 Developed by:
-Ahren Jin 靳轶乔, Tyler Liu 刘思齐, Leo Liu 刘梓涵, Max Zhang 张汶博
+Ahren Jin, Tyler Liu, Leo Liu, Max Zhang
 
 Standing on top of the Empire State Building or strolling on the Whitehaven beach, we always want to find great musics that would accompany with these marvelous sceneries. This is why we developed PAIR. No matter if you are on a spectacular journey or trapped in your tedious daily routine, PAIR makes your life more enjoyable by playing THE song that best suits your surrounding.
 
